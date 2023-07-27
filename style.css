@@ -8,7 +8,7 @@
 
 body {
     display: flex;
-    background-image: url('/carros.jpg');
+    background-image: url('/pxfuel3.jpg');
     background-size: cover;
     height: 100vh;
     justify-content: center;
@@ -20,9 +20,9 @@ body {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    background-image: url('/guarda.jpg');
+    background-image: url('/guardaa.jpg');
     background-size: cover;
-    box-shadow: 0px 0px 10px 10px rgb(255, 143, 6);
+    box-shadow: 0px 0px 10px 10px rgba(41, 39, 76, 0.734);
     border-radius: 20px;
     padding: 50px; 
     width: 500px;
