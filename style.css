@@ -8,18 +8,21 @@
 
 body {
     display: flex;
-    background-color: black;
+    background-image: url('/Firefly\ ruas\ coloridas\ e\ carros\ coloridos\ foto\ tirada\ de\ cima\ hiper\ realista\ 8733\ \(1\).jpg');
+    background-size: cover;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 .system {
-    color:brown;
+    color:rgb(255, 255, 255);
     text-align: justify;
     display: flex;
     flex-direction: column;
-    background-color: wheat;
+    background-image: url('/Firefly\ desenho\ colorido\ de\ guarda\ aplicando\ multa\ em\ um\ carro\ 67757.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgb(255, 143, 6);
     border-radius: 20px;
     padding: 50px; 
     width: 500px;
@@ -28,6 +31,8 @@ body {
 
 .system h1 {
     text-align: center;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
 }
 
 input {
@@ -55,4 +60,6 @@ button:hover {
 
 #resultados {
     padding-top: 20px;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
 }

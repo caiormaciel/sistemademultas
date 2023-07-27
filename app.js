@@ -38,7 +38,7 @@ btn.onclick = function clicar() {
 
 btnn.onclick = function() {
     resultados.innerHTML = "Insira a Velocidade no campo acima!."
-    velmedida.value = ""
+    velmedida.value = null
 }
 
 // https://www.youtube.com/watch?v=EEStcIe8rAM&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm&index=17
