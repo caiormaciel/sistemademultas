@@ -8,7 +8,7 @@
 
 body {
     display: flex;
-    background-image: url('/pxfuel3.jpg');
+    background-image: linear-gradient(to left,rgb(179, 186, 245), rgb(0, 179, 255)) ;
     background-size: cover;
     height: 100vh;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    background-image: url('/guardaa.jpg');
+    background-image: linear-gradient(rgba(125, 124, 223, 0.992),rgb(220, 179, 245));
     background-size: cover;
     box-shadow: 0px 0px 10px 10px rgba(41, 39, 76, 0.734);
     border-radius: 20px;
